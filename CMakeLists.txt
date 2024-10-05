@@ -18,7 +18,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(costmap_2d REQUIRED)
+find_package(nav2_costmap_2d REQUIRED)
 find_package(pluginlib REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
@@ -45,7 +45,7 @@ add_library(costmap2d_plugin_test SHARED
 
 ament_target_dependencies(costmap2d_plugin_test
   rclcpp
-  costmap_2d
+  nav2_costmap_2d
   pluginlib
 )
 
