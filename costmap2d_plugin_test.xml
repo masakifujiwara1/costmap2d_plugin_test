@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<library path="lib/libcostmap2d_plugin_test_layers.so">
+  <class name="costmap2d_plugin_test_layers::SetCostAtPointLayer"
+         type="costmap2d_plugin_test_layers::SetCostAtPointLayer"
+         base_class_type="costmap_2d::Layer">
+    <description>
+      A layer that sets the cost at a specific point.
+    </description>
+  </class>
+</library>
